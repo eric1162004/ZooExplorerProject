@@ -8,10 +8,10 @@
 import SwiftUI
 
 @main
-struct AnimalClassifierAppApp: App {
+struct AnimalClassifierApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainScreen()
         }
     }
 }
