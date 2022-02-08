@@ -13,6 +13,20 @@
 		4569DA9427B205ED00D610D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4569DA9327B205ED00D610D9 /* Assets.xcassets */; };
 		4569DA9727B205ED00D610D9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4569DA9627B205ED00D610D9 /* Preview Assets.xcassets */; };
 		4569DAA227B2065D00D610D9 /* AnimalClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 4569DAA127B2065D00D610D9 /* AnimalClassifier.mlmodel */; };
+		4569DAA627B20CEF00D610D9 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4569DAA527B20CEF00D610D9 /* MainViewModel.swift */; };
+		4569DAA827B20D4700D610D9 /* Resolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4569DAA727B20D4700D610D9 /* Resolver.swift */; };
+		4569DAAA27B20D8600D610D9 /* WikiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4569DAA927B20D8600D610D9 /* WikiService.swift */; };
+		4569DAAC27B20E4D00D610D9 /* AnimalInfoScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4569DAAB27B20E4D00D610D9 /* AnimalInfoScreen.swift */; };
+		4569DAAE27B20F2100D610D9 /* PhotoPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4569DAAD27B20F2100D610D9 /* PhotoPicker.swift */; };
+		4569DAB027B212F700D610D9 /* CapsuleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4569DAAF27B212F700D610D9 /* CapsuleButton.swift */; };
+		4569DAB227B2136100D610D9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4569DAB127B2136100D610D9 /* Constants.swift */; };
+		4569DAB427B21B5400D610D9 /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4569DAB327B21B5400D610D9 /* Animal.swift */; };
+		4569DABB27B2202100D610D9 /* AppText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4569DABA27B2202100D610D9 /* AppText.swift */; };
+		4569DABF27B2230500D610D9 /* Rowdies-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4569DABC27B2230500D610D9 /* Rowdies-Bold.ttf */; };
+		4569DAC027B2230500D610D9 /* Rowdies-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4569DABD27B2230500D610D9 /* Rowdies-Light.ttf */; };
+		4569DAC127B2230500D610D9 /* Rowdies-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4569DABE27B2230500D610D9 /* Rowdies-Regular.ttf */; };
+		4569DAC327B2322900D610D9 /* ImageClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4569DAC227B2322900D610D9 /* ImageClassifier.swift */; };
+		4569DAC527B23A2D00D610D9 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 4569DAC427B23A2D00D610D9 /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +37,21 @@
 		4569DA9327B205ED00D610D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4569DA9627B205ED00D610D9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4569DAA127B2065D00D610D9 /* AnimalClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = AnimalClassifier.mlmodel; sourceTree = "<group>"; };
+		4569DAA527B20CEF00D610D9 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		4569DAA727B20D4700D610D9 /* Resolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resolver.swift; sourceTree = "<group>"; };
+		4569DAA927B20D8600D610D9 /* WikiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikiService.swift; sourceTree = "<group>"; };
+		4569DAAB27B20E4D00D610D9 /* AnimalInfoScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalInfoScreen.swift; sourceTree = "<group>"; };
+		4569DAAD27B20F2100D610D9 /* PhotoPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPicker.swift; sourceTree = "<group>"; };
+		4569DAAF27B212F700D610D9 /* CapsuleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapsuleButton.swift; sourceTree = "<group>"; };
+		4569DAB127B2136100D610D9 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		4569DAB327B21B5400D610D9 /* Animal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
+		4569DAB927B21F9000D610D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		4569DABA27B2202100D610D9 /* AppText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppText.swift; sourceTree = "<group>"; };
+		4569DABC27B2230500D610D9 /* Rowdies-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rowdies-Bold.ttf"; sourceTree = "<group>"; };
+		4569DABD27B2230500D610D9 /* Rowdies-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rowdies-Light.ttf"; sourceTree = "<group>"; };
+		4569DABE27B2230500D610D9 /* Rowdies-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rowdies-Regular.ttf"; sourceTree = "<group>"; };
+		4569DAC227B2322900D610D9 /* ImageClassifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageClassifier.swift; sourceTree = "<group>"; };
+		4569DAC427B23A2D00D610D9 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 		58735AC014808C9D3AEAE53F /* Pods-AnimalClassifierApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimalClassifierApp.debug.xcconfig"; path = "Target Support Files/Pods-AnimalClassifierApp/Pods-AnimalClassifierApp.debug.xcconfig"; sourceTree = "<group>"; };
 		DC67E0D75D223A8EC7435C5E /* Pods_AnimalClassifierApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnimalClassifierApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -66,7 +95,11 @@
 				4569DA9D27B205FE00D610D9 /* Views */,
 				4569DA8F27B205EB00D610D9 /* AnimalClassifierApp.swift */,
 				4569DA9327B205ED00D610D9 /* Assets.xcassets */,
+				4569DAB527B21DFC00D610D9 /* Fonts */,
 				4569DA9527B205ED00D610D9 /* Preview Content */,
+				4569DAA727B20D4700D610D9 /* Resolver.swift */,
+				4569DAB127B2136100D610D9 /* Constants.swift */,
+				4569DAB927B21F9000D610D9 /* Info.plist */,
 			);
 			path = AnimalClassifierApp;
 			sourceTree = "<group>";
@@ -91,6 +124,7 @@
 		4569DA9E27B2060B00D610D9 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				4569DAA527B20CEF00D610D9 /* MainViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -98,7 +132,9 @@
 		4569DA9F27B2061500D610D9 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				4569DAC427B23A2D00D610D9 /* Inceptionv3.mlmodel */,
 				4569DAA127B2065D00D610D9 /* AnimalClassifier.mlmodel */,
+				4569DAB327B21B5400D610D9 /* Animal.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -106,6 +142,8 @@
 		4569DAA027B2062500D610D9 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				4569DAA927B20D8600D610D9 /* WikiService.swift */,
+				4569DAC227B2322900D610D9 /* ImageClassifier.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -114,6 +152,7 @@
 			isa = PBXGroup;
 			children = (
 				4569DA9127B205EB00D610D9 /* MainScreen.swift */,
+				4569DAAB27B20E4D00D610D9 /* AnimalInfoScreen.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -121,8 +160,21 @@
 		4569DAA427B207B400D610D9 /* Reusables */ = {
 			isa = PBXGroup;
 			children = (
+				4569DAAD27B20F2100D610D9 /* PhotoPicker.swift */,
+				4569DAAF27B212F700D610D9 /* CapsuleButton.swift */,
+				4569DABA27B2202100D610D9 /* AppText.swift */,
 			);
 			path = Reusables;
+			sourceTree = "<group>";
+		};
+		4569DAB527B21DFC00D610D9 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				4569DABC27B2230500D610D9 /* Rowdies-Bold.ttf */,
+				4569DABD27B2230500D610D9 /* Rowdies-Light.ttf */,
+				4569DABE27B2230500D610D9 /* Rowdies-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 		582A1AC7CBB9595E98781572 /* Frameworks */ = {
@@ -139,7 +191,6 @@
 				58735AC014808C9D3AEAE53F /* Pods-AnimalClassifierApp.debug.xcconfig */,
 				1AC21C78A4EFC50B9AC5DEE6 /* Pods-AnimalClassifierApp.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -204,7 +255,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4569DA9727B205ED00D610D9 /* Preview Assets.xcassets in Resources */,
+				4569DABF27B2230500D610D9 /* Rowdies-Bold.ttf in Resources */,
+				4569DAC127B2230500D610D9 /* Rowdies-Regular.ttf in Resources */,
 				4569DA9427B205ED00D610D9 /* Assets.xcassets in Resources */,
+				4569DAC027B2230500D610D9 /* Rowdies-Light.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,9 +311,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4569DAB427B21B5400D610D9 /* Animal.swift in Sources */,
+				4569DAA827B20D4700D610D9 /* Resolver.swift in Sources */,
+				4569DABB27B2202100D610D9 /* AppText.swift in Sources */,
+				4569DAB027B212F700D610D9 /* CapsuleButton.swift in Sources */,
 				4569DAA227B2065D00D610D9 /* AnimalClassifier.mlmodel in Sources */,
+				4569DAAC27B20E4D00D610D9 /* AnimalInfoScreen.swift in Sources */,
+				4569DAC327B2322900D610D9 /* ImageClassifier.swift in Sources */,
 				4569DA9227B205EB00D610D9 /* MainScreen.swift in Sources */,
+				4569DAB227B2136100D610D9 /* Constants.swift in Sources */,
+				4569DAAE27B20F2100D610D9 /* PhotoPicker.swift in Sources */,
+				4569DAAA27B20D8600D610D9 /* WikiService.swift in Sources */,
 				4569DA9027B205EB00D610D9 /* AnimalClassifierApp.swift in Sources */,
+				4569DAA627B20CEF00D610D9 /* MainViewModel.swift in Sources */,
+				4569DAC527B23A2D00D610D9 /* Inceptionv3.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,6 +458,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"AnimalClassifierApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AnimalClassifierApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -422,6 +488,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"AnimalClassifierApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AnimalClassifierApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
