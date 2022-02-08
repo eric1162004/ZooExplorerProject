@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-AnimalClassifierApp/Pods-AnimalClassifierApp-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/Resolver/Resolver.framework
+${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework

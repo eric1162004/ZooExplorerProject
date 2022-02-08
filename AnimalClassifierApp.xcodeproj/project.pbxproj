@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		21FDF27218558E3CD0DEE000 /* Pods_AnimalClassifierApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC67E0D75D223A8EC7435C5E /* Pods_AnimalClassifierApp.framework */; };
 		4569DA9027B205EB00D610D9 /* AnimalClassifierApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4569DA8F27B205EB00D610D9 /* AnimalClassifierApp.swift */; };
 		4569DA9227B205EB00D610D9 /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4569DA9127B205EB00D610D9 /* MainScreen.swift */; };
 		4569DA9427B205ED00D610D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4569DA9327B205ED00D610D9 /* Assets.xcassets */; };
@@ -15,12 +16,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1AC21C78A4EFC50B9AC5DEE6 /* Pods-AnimalClassifierApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimalClassifierApp.release.xcconfig"; path = "Target Support Files/Pods-AnimalClassifierApp/Pods-AnimalClassifierApp.release.xcconfig"; sourceTree = "<group>"; };
 		4569DA8C27B205EB00D610D9 /* AnimalClassifierApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimalClassifierApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4569DA8F27B205EB00D610D9 /* AnimalClassifierApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalClassifierApp.swift; sourceTree = "<group>"; };
 		4569DA9127B205EB00D610D9 /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
 		4569DA9327B205ED00D610D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4569DA9627B205ED00D610D9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4569DAA127B2065D00D610D9 /* AnimalClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = AnimalClassifier.mlmodel; sourceTree = "<group>"; };
+		58735AC014808C9D3AEAE53F /* Pods-AnimalClassifierApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimalClassifierApp.debug.xcconfig"; path = "Target Support Files/Pods-AnimalClassifierApp/Pods-AnimalClassifierApp.debug.xcconfig"; sourceTree = "<group>"; };
+		DC67E0D75D223A8EC7435C5E /* Pods_AnimalClassifierApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnimalClassifierApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -28,6 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21FDF27218558E3CD0DEE000 /* Pods_AnimalClassifierApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -39,6 +44,8 @@
 			children = (
 				4569DA8E27B205EB00D610D9 /* AnimalClassifierApp */,
 				4569DA8D27B205EB00D610D9 /* Products */,
+				A0C6221C1D647FB89DED7218 /* Pods */,
+				582A1AC7CBB9595E98781572 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -118,6 +125,24 @@
 			path = Reusables;
 			sourceTree = "<group>";
 		};
+		582A1AC7CBB9595E98781572 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC67E0D75D223A8EC7435C5E /* Pods_AnimalClassifierApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A0C6221C1D647FB89DED7218 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				58735AC014808C9D3AEAE53F /* Pods-AnimalClassifierApp.debug.xcconfig */,
+				1AC21C78A4EFC50B9AC5DEE6 /* Pods-AnimalClassifierApp.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -125,9 +150,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4569DA9A27B205ED00D610D9 /* Build configuration list for PBXNativeTarget "AnimalClassifierApp" */;
 			buildPhases = (
+				0781E32640E805CF6BD2865D /* [CP] Check Pods Manifest.lock */,
 				4569DA8827B205EB00D610D9 /* Sources */,
 				4569DA8927B205EB00D610D9 /* Frameworks */,
 				4569DA8A27B205EB00D610D9 /* Resources */,
+				042C21E537E8B778A0596D92 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -182,6 +209,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		042C21E537E8B778A0596D92 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AnimalClassifierApp/Pods-AnimalClassifierApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AnimalClassifierApp/Pods-AnimalClassifierApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AnimalClassifierApp/Pods-AnimalClassifierApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0781E32640E805CF6BD2865D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AnimalClassifierApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4569DA8827B205EB00D610D9 /* Sources */ = {
@@ -315,6 +384,7 @@
 		};
 		4569DA9B27B205ED00D610D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58735AC014808C9D3AEAE53F /* Pods-AnimalClassifierApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -343,6 +413,7 @@
 		};
 		4569DA9C27B205ED00D610D9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AC21C78A4EFC50B9AC5DEE6 /* Pods-AnimalClassifierApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
