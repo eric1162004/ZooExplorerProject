@@ -21,6 +21,7 @@ class MainViewModel: ObservableObject {
     @Published var predictedAnimal: Animal?
     
     func predictAnimal(image: UIImage){
+        
         if let selectedImage = selectedImage {
             imageClassifier.detectImage(selectedImage) { [weak self] result in
                 switch result {

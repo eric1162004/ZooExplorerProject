@@ -22,6 +22,7 @@ struct MainScreen: View {
                     Image(uiImage: selectedImage)
                         .resizable()
                         .scaledToFit()
+                        .clipShape(RoundedRectangle(cornerRadius: Dm.medium))
                         .onTapGesture {
                             showPhotoPicker.toggle()
                         }
