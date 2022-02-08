@@ -27,6 +27,11 @@
 		4569DAC127B2230500D610D9 /* Rowdies-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4569DABE27B2230500D610D9 /* Rowdies-Regular.ttf */; };
 		4569DAC327B2322900D610D9 /* ImageClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4569DAC227B2322900D610D9 /* ImageClassifier.swift */; };
 		4569DAC527B23A2D00D610D9 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 4569DAC427B23A2D00D610D9 /* Inceptionv3.mlmodel */; };
+		4569DAC727B24D4300D610D9 /* ImageButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4569DAC627B24D4300D610D9 /* ImageButton.swift */; };
+		4569DAC927B24DB000D610D9 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4569DAC827B24DB000D610D9 /* ImageView.swift */; };
+		4569DACB27B252B300D610D9 /* TopBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4569DACA27B252B300D610D9 /* TopBar.swift */; };
+		4569DACD27B2584600D610D9 /* AsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4569DACC27B2584600D610D9 /* AsyncImageView.swift */; };
+		4569DACF27B2611B00D610D9 /* CircularIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4569DACE27B2611B00D610D9 /* CircularIcon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +57,11 @@
 		4569DABE27B2230500D610D9 /* Rowdies-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rowdies-Regular.ttf"; sourceTree = "<group>"; };
 		4569DAC227B2322900D610D9 /* ImageClassifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageClassifier.swift; sourceTree = "<group>"; };
 		4569DAC427B23A2D00D610D9 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
+		4569DAC627B24D4300D610D9 /* ImageButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageButton.swift; sourceTree = "<group>"; };
+		4569DAC827B24DB000D610D9 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		4569DACA27B252B300D610D9 /* TopBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopBar.swift; sourceTree = "<group>"; };
+		4569DACC27B2584600D610D9 /* AsyncImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageView.swift; sourceTree = "<group>"; };
+		4569DACE27B2611B00D610D9 /* CircularIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularIcon.swift; sourceTree = "<group>"; };
 		58735AC014808C9D3AEAE53F /* Pods-AnimalClassifierApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimalClassifierApp.debug.xcconfig"; path = "Target Support Files/Pods-AnimalClassifierApp/Pods-AnimalClassifierApp.debug.xcconfig"; sourceTree = "<group>"; };
 		DC67E0D75D223A8EC7435C5E /* Pods_AnimalClassifierApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnimalClassifierApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -163,6 +173,11 @@
 				4569DAAD27B20F2100D610D9 /* PhotoPicker.swift */,
 				4569DAAF27B212F700D610D9 /* CapsuleButton.swift */,
 				4569DABA27B2202100D610D9 /* AppText.swift */,
+				4569DAC627B24D4300D610D9 /* ImageButton.swift */,
+				4569DAC827B24DB000D610D9 /* ImageView.swift */,
+				4569DACA27B252B300D610D9 /* TopBar.swift */,
+				4569DACC27B2584600D610D9 /* AsyncImageView.swift */,
+				4569DACE27B2611B00D610D9 /* CircularIcon.swift */,
 			);
 			path = Reusables;
 			sourceTree = "<group>";
@@ -316,8 +331,12 @@
 				4569DABB27B2202100D610D9 /* AppText.swift in Sources */,
 				4569DAB027B212F700D610D9 /* CapsuleButton.swift in Sources */,
 				4569DAA227B2065D00D610D9 /* AnimalClassifier.mlmodel in Sources */,
+				4569DACD27B2584600D610D9 /* AsyncImageView.swift in Sources */,
 				4569DAAC27B20E4D00D610D9 /* AnimalInfoScreen.swift in Sources */,
 				4569DAC327B2322900D610D9 /* ImageClassifier.swift in Sources */,
+				4569DAC727B24D4300D610D9 /* ImageButton.swift in Sources */,
+				4569DAC927B24DB000D610D9 /* ImageView.swift in Sources */,
+				4569DACB27B252B300D610D9 /* TopBar.swift in Sources */,
 				4569DA9227B205EB00D610D9 /* MainScreen.swift in Sources */,
 				4569DAB227B2136100D610D9 /* Constants.swift in Sources */,
 				4569DAAE27B20F2100D610D9 /* PhotoPicker.swift in Sources */,
@@ -325,6 +344,7 @@
 				4569DA9027B205EB00D610D9 /* AnimalClassifierApp.swift in Sources */,
 				4569DAA627B20CEF00D610D9 /* MainViewModel.swift in Sources */,
 				4569DAC527B23A2D00D610D9 /* Inceptionv3.mlmodel in Sources */,
+				4569DACF27B2611B00D610D9 /* CircularIcon.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

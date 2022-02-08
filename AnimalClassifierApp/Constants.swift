@@ -8,6 +8,13 @@
 import Foundation
 import SwiftUI
 
+extension Color {
+    
+    static let primaryColor = Color("appPrimaryColor")
+    static let secondaryColor = Color("appSecondaryColor")
+    static let backgroundColor = Color("appBackgroundColor")
+}
+
 // Fonts
 struct Fonts {
     
@@ -15,7 +22,6 @@ struct Fonts {
     static let rowdies_regular = "Rowdies-Regular"
     static let rowdies_bold = "Rowdies-Bold"
 }
-
 
 // FontSize
 struct FontSize {

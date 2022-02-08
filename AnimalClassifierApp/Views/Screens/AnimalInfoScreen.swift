@@ -9,34 +9,45 @@ import SwiftUI
 
 struct AnimalInfoScreen: View {
     
+    @Environment(\.presentationMode) var presentation
+    
+    var animal: Animal
+    
+    var body: some View {
+        ZStack{
+            
+            Color.backgroundColor
+            
+            VStack{
+                // Top bar
+                TopBar(title: "Wikipedia", leadingIcon: "chevron.left", trailingIcon: "", leadingIconHandler: {
+                    self.presentation.wrappedValue.dismiss()
+                })
+                
+                AnimalContent(animal: animal)
+            }
+        }
+        .ignoresSafeArea()
+        .navigationBarHidden(true)
+    }
+}
+
+private struct AnimalContent: View {
+    
     var animal: Animal
     
     var body: some View {
         ScrollView{
-        
+            
             AppText(text:animal.name.capitalized, font: Fonts.rowdies_bold, fontSize: FontSize.medium)
             
-            AsyncImage(url: URL(string: animal.imageURL)) { phase in
-                switch phase {
-                case .empty:
-                    ProgressView()
-                case .success(let image):
-                    image.resizable()
-                        .aspectRatio(contentMode: .fit)
-                        .frame(maxWidth: .infinity, maxHeight: 200)
-                case .failure:
-                    Image(systemName: "photo")
-                @unknown default:
-                    EmptyView()
-                }
-            }
+            AsyncImageView(imageURL: animal.imageURL)
             
             AppText(text:animal.description, font: Fonts.rowdies_light, fontSize: FontSize.tiny)
         }
-        .padding()
-        .padding(.vertical, Dm.large)
-        .ignoresSafeArea()
+        .padding(.horizontal, Dm.medium)
     }
+    
 }
 
 struct AnimalInfoScreen_Previews: PreviewProvider {

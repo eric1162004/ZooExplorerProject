@@ -20,18 +20,20 @@ struct CapsuleButton: View {
                 handlePressed()
             }){
                 Text(label)
+                    .font(.custom(Fonts.rowdies_regular, size: FontSize.tiny))
                     .frame(maxWidth: .infinity, minHeight: Dm.medium, alignment: .center)
                     .padding()
-                    .background(backgroundColor)
+                    .background(Color.primaryColor)
                     .foregroundColor(.white)
                     .cornerRadius(CornerRadius.xlarge)
             }
         }
         else {
             Text(label)
+                .font(.custom(Fonts.rowdies_regular, size: FontSize.tiny))
                 .frame(maxWidth: .infinity, minHeight: Dm.medium, alignment: .center)
                 .padding()
-                .background(backgroundColor)
+                .background(Color.primaryColor)
                 .foregroundColor(.white)
                 .cornerRadius(CornerRadius.xlarge)
         }

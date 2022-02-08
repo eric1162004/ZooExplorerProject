@@ -9,51 +9,79 @@ import SwiftUI
 import Resolver
 
 struct MainScreen: View {
+    
+    var body: some View {
+        NavigationView{
+            ZStack{
+                Color.backgroundColor
+                
+                VStack{
+                    // Top bar
+                    TopBar(title: "Zoo Explorer")
+                    MainContent()
+                    Spacer()
+                }
+            }
+            .ignoresSafeArea()
+            .navigationBarHidden(true)
+        }
+    }
+}
 
+private struct MainContent : View{
+    
     @State private var showPhotoPicker =  false
     
     @ObservedObject var mainVM: MainViewModel = Resolver.resolve()
     
     var body: some View {
-        NavigationView{
-            VStack{
-                if let selectedImage = mainVM.selectedImage {
+        VStack(spacing: Dm.medium){
+            if let selectedImage = mainVM.selectedImage {
                 
-                    Image(uiImage: selectedImage)
-                        .resizable()
-                        .scaledToFit()
-                        .clipShape(RoundedRectangle(cornerRadius: Dm.medium))
+                ZStack(alignment: .topTrailing){
+                    
+                    ImageView(image: selectedImage)
+                    
+                    CircularIcon(iconName: "arrow.left.arrow.right")
+                        .zIndex(1)
                         .onTapGesture {
                             showPhotoPicker.toggle()
                         }
+                }
+                
+                if let predictedAnmial = mainVM.predictedAnimal {
                     
-                    // navigate to info page
-                    if let predictedAnmial = mainVM.predictedAnimal {
+                    VStack(alignment: .leading){
                         
-                        AppText(text: "This is probably a \(predictedAnmial.name).")
+                        AppText(text: "This is probably a...")
                         
-                        NavigationLink(destination: AnimalInfoScreen(
-                            animal: predictedAnmial)) {
-                            CapsuleButton(label: "Learn more")
-                        }
+                        AppText(text: "\(predictedAnmial.name)", fontSize: FontSize.medium)
+                        
                     }
                     
-                } else {
-                    Image(systemName: "photo.fill")
-                        .resizable()
-                        .scaledToFit()
-                        .onTapGesture {
-                            showPhotoPicker.toggle()
+                    // navigate to info page
+                    NavigationLink(destination: AnimalInfoScreen(
+                        animal: predictedAnmial)) {
+                            CapsuleButton(label: "Learn more")
                         }
                 }
-            }
-            .padding()
-            .navigationTitle("ZOO EXPLORER")
-            .sheet(isPresented: $showPhotoPicker) {
-                PhotoPicker(image: $mainVM.selectedImage) { image in
-                    // do something with the selected image
-                    mainVM.predictAnimal(image: image)
+                
+            } else {
+                // show if no image has been selected
+                ImageButton()
+                    .padding()
+                
+                CapsuleButton(label: "Select a picture"){
+                    showPhotoPicker.toggle()
                 }
+                
+            }
+        }
+        .padding()
+        .sheet(isPresented: $showPhotoPicker) {
+            PhotoPicker(image: $mainVM.selectedImage) { image in
+                // do something when the user has selected a image
+                mainVM.predictAnimal(image: image)
             }
         }
     }
