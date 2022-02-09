@@ -19,6 +19,7 @@ struct AsyncImageView: View {
             case .success(let image):
                 image.resizable()
                     .aspectRatio(contentMode: .fit)
+                    .clipShape(RoundedRectangle(cornerRadius: Dm.medium))
                     .frame(maxWidth: .infinity, maxHeight: 200)
             case .failure:
                 Image(systemName: "photo")

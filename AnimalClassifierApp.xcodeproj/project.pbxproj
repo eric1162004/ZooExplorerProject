@@ -105,11 +105,11 @@
 				4569DA9D27B205FE00D610D9 /* Views */,
 				4569DA8F27B205EB00D610D9 /* AnimalClassifierApp.swift */,
 				4569DA9327B205ED00D610D9 /* Assets.xcassets */,
-				4569DAB527B21DFC00D610D9 /* Fonts */,
-				4569DA9527B205ED00D610D9 /* Preview Content */,
 				4569DAA727B20D4700D610D9 /* Resolver.swift */,
 				4569DAB127B2136100D610D9 /* Constants.swift */,
+				4569DAB527B21DFC00D610D9 /* Fonts */,
 				4569DAB927B21F9000D610D9 /* Info.plist */,
+				4569DA9527B205ED00D610D9 /* Preview Content */,
 			);
 			path = AnimalClassifierApp;
 			sourceTree = "<group>";

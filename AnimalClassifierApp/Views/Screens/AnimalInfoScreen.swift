@@ -42,7 +42,7 @@ private struct AnimalContent: View {
             AppText(text:animal.name.capitalized, font: Fonts.rowdies_bold, fontSize: FontSize.medium)
             
             AsyncImageView(imageURL: animal.imageURL)
-            
+                
             AppText(text:animal.description, font: Fonts.rowdies_light, fontSize: FontSize.tiny)
         }
         .padding(.horizontal, Dm.medium)

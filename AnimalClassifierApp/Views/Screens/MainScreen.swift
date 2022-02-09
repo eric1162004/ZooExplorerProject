@@ -9,7 +9,6 @@ import SwiftUI
 import Resolver
 
 struct MainScreen: View {
-    
     var body: some View {
         NavigationView{
             ZStack{
@@ -17,7 +16,7 @@ struct MainScreen: View {
                 
                 VStack{
                     // Top bar
-                    TopBar(title: "Zoo Explorer")
+                    TopBar(title: "Image Explorer")
                     MainContent()
                     Spacer()
                 }
@@ -51,7 +50,7 @@ private struct MainContent : View{
                 
                 if let predictedAnmial = mainVM.predictedAnimal {
                     
-                    VStack(alignment: .leading){
+                    VStack(alignment: .center){
                         
                         AppText(text: "This is probably a...")
                         
@@ -74,7 +73,6 @@ private struct MainContent : View{
                 CapsuleButton(label: "Select a picture"){
                     showPhotoPicker.toggle()
                 }
-                
             }
         }
         .padding()
