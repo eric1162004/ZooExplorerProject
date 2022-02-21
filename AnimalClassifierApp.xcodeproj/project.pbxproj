@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07F86FFE27C365D400EA31B0 /* CatOrDog 1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 07F86FFD27C365D400EA31B0 /* CatOrDog 1.mlmodel */; };
 		21FDF27218558E3CD0DEE000 /* Pods_AnimalClassifierApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC67E0D75D223A8EC7435C5E /* Pods_AnimalClassifierApp.framework */; };
 		4569DA9027B205EB00D610D9 /* AnimalClassifierApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4569DA8F27B205EB00D610D9 /* AnimalClassifierApp.swift */; };
 		4569DA9227B205EB00D610D9 /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4569DA9127B205EB00D610D9 /* MainScreen.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		07F86FFD27C365D400EA31B0 /* CatOrDog 1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "CatOrDog 1.mlmodel"; sourceTree = "<group>"; };
 		1AC21C78A4EFC50B9AC5DEE6 /* Pods-AnimalClassifierApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimalClassifierApp.release.xcconfig"; path = "Target Support Files/Pods-AnimalClassifierApp/Pods-AnimalClassifierApp.release.xcconfig"; sourceTree = "<group>"; };
 		4569DA8C27B205EB00D610D9 /* AnimalClassifierApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimalClassifierApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4569DA8F27B205EB00D610D9 /* AnimalClassifierApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalClassifierApp.swift; sourceTree = "<group>"; };
@@ -142,6 +144,7 @@
 		4569DA9F27B2061500D610D9 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				07F86FFD27C365D400EA31B0 /* CatOrDog 1.mlmodel */,
 				4569DAC427B23A2D00D610D9 /* Inceptionv3.mlmodel */,
 				4569DAA127B2065D00D610D9 /* AnimalClassifier.mlmodel */,
 				4569DAB327B21B5400D610D9 /* Animal.swift */,
@@ -336,6 +339,7 @@
 				4569DAC327B2322900D610D9 /* ImageClassifier.swift in Sources */,
 				4569DAC727B24D4300D610D9 /* ImageButton.swift in Sources */,
 				4569DAC927B24DB000D610D9 /* ImageView.swift in Sources */,
+				07F86FFE27C365D400EA31B0 /* CatOrDog 1.mlmodel in Sources */,
 				4569DACB27B252B300D610D9 /* TopBar.swift in Sources */,
 				4569DA9227B205EB00D610D9 /* MainScreen.swift in Sources */,
 				4569DAB227B2136100D610D9 /* Constants.swift in Sources */,

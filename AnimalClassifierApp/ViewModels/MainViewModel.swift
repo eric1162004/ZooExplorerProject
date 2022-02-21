@@ -26,9 +26,6 @@ class MainViewModel: ObservableObject {
             imageClassifier.detectImage(selectedImage) { [weak self] result in
                 switch result {
                     case .success(let predictedAnimalName):
-                    
-                        print("predicted animal: ", predictedAnimalName)
-                    
                         self?.predictedAnimal = Animal(name: predictedAnimalName)
                         self?.getAnimalInfoFromWiki(animalName: self?.predictedAnimal?.name ?? "")
                     
