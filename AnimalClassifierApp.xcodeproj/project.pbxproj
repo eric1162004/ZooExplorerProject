@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07F8700027C36FAC00EA31B0 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07F86FFF27C36FAC00EA31B0 /* Launch Screen.storyboard */; };
 		21FDF27218558E3CD0DEE000 /* Pods_AnimalClassifierApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC67E0D75D223A8EC7435C5E /* Pods_AnimalClassifierApp.framework */; };
 		4569DA9027B205EB00D610D9 /* AnimalClassifierApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4569DA8F27B205EB00D610D9 /* AnimalClassifierApp.swift */; };
 		4569DA9227B205EB00D610D9 /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4569DA9127B205EB00D610D9 /* MainScreen.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		07F86FFF27C36FAC00EA31B0 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		1AC21C78A4EFC50B9AC5DEE6 /* Pods-AnimalClassifierApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimalClassifierApp.release.xcconfig"; path = "Target Support Files/Pods-AnimalClassifierApp/Pods-AnimalClassifierApp.release.xcconfig"; sourceTree = "<group>"; };
 		4569DA8C27B205EB00D610D9 /* AnimalClassifierApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimalClassifierApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4569DA8F27B205EB00D610D9 /* AnimalClassifierApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalClassifierApp.swift; sourceTree = "<group>"; };
@@ -161,6 +163,7 @@
 		4569DAA327B207AD00D610D9 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				07F86FFF27C36FAC00EA31B0 /* Launch Screen.storyboard */,
 				4569DA9127B205EB00D610D9 /* MainScreen.swift */,
 				4569DAAB27B20E4D00D610D9 /* AnimalInfoScreen.swift */,
 			);
@@ -269,6 +272,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07F8700027C36FAC00EA31B0 /* Launch Screen.storyboard in Resources */,
 				4569DA9727B205ED00D610D9 /* Preview Assets.xcassets in Resources */,
 				4569DABF27B2230500D610D9 /* Rowdies-Bold.ttf in Resources */,
 				4569DAC127B2230500D610D9 /* Rowdies-Regular.ttf in Resources */,
@@ -482,6 +486,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -512,6 +517,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
