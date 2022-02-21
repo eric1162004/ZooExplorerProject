@@ -16,7 +16,7 @@ struct MainScreen: View {
                 
                 VStack{
                     // Top bar
-                    TopBar(title: "Image Explorer")
+                    TopBar(title: "Zoo Explorer")
                     MainContent()
                     Spacer()
                 }
